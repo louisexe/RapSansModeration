@@ -1,0 +1,78 @@
+c {
+    margin: 0;
+    background: lightgray;
+    text-align: center;
+    font-family: sans-serif;
+    color: #fefefe;
+  }
+  .containe {
+    position: relative;
+    width: 320px;
+    margin: 100px auto 0 auto;
+    perspective: 1000px;
+  }
+  
+  .carousel {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d; 
+    animation: rotate360 60s infinite forwards linear;
+  }
+  .carousel__face { 
+    position: absolute;
+    width: 300px;
+    height: 187px;
+    top: 20px;
+    left: 10px;
+    right: 10px;
+    background-size: cover;
+    box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.5);
+    display: flex;
+  }
+  
+  span {
+    margin: auto;
+    font-size: 2rem;
+  }
+  
+  
+  .carousel__face:nth-child(1) {
+    background-image: url("https://cdn.radiofrance.fr/s3/cruiser-production/2019/04/d252421b-07ca-4179-9f8c-ebb0788b10a8/1200x680_eminem_dr._dre_gettyimages-119527801.jpg");
+    transform: rotateY(  0deg) translateZ(430px); }
+  .carousel__face:nth-child(2) { 
+    background-image: url("https://cdn.radiofrance.fr/s3/cruiser-production/2020/11/50a43a42-2380-4d5d-8e2c-e9b8f382d416/1200x680_booba_01072020_miami_gqfrance_paridukovic_0303.jpg");
+      transform: rotateY( 40deg) translateZ(430px); }
+  .carousel__face:nth-child(3) {
+    background-image: url("https://www.adoxa.info/wp-content/uploads/2020/11/Sfera-Ebbasta-a-inaugure-la-place-a-son-nom.jpg");
+    transform: rotateY( 80deg) translateZ(430px); }
+  .carousel__face:nth-child(4) {
+    background-image: url("https://d3s4rtoucjtwa6.cloudfront.net/artistes/1500-1559551736.jpg");
+    transform: rotateY(120deg) translateZ(430px); }
+  .carousel__face:nth-child(5) { 
+    background-image: url("http://maghrap.com/wp-content/uploads/2020/04/madd-shobee-smallx-shayfeen-naar-safar-wa-drari-squad.jpg");
+   transform: rotateY(160deg) translateZ(430px); }
+  .carousel__face:nth-child(6) { 
+    background-image: url("https://lavagueparallele.com/wp-content/uploads/2019/10/FRANK_OCEAN_COLLIER_SCHORR_GAYLETTER_Shot_03_034_02-e1572023383800.jpg");
+   transform: rotateY(200deg) translateZ(430px); }
+  .carousel__face:nth-child(7) { 
+    background-image: url("https://pbs.twimg.com/media/Eq_WCe6WMAANhcw.jpg");
+   transform: rotateY(240deg) translateZ(430px); }
+  .carousel__face:nth-child(8) {
+    background-image: url("https://lvdneng.rosselcdn.net/sites/default/files/dpistyles_v2/ena_16_9_extra_big/2019/02/07/node_534097/40039874/public/2019/02/07/B9718501774Z.1_20190207121338_000%2BGK6CUADMO.1-0.jpg?itok=bcWQPN701549563453");
+    transform: rotateY(280deg) translateZ(430px); }
+  .carousel__face:nth-child(9) {
+    background-image: url("https://mobile-img.lpcdn.ca/lpca/924x/r3996/301c8f9f-2b6b-11eb-b8ad-02fe89184577.jpg");
+    transform: rotateY(320deg) translateZ(430px); }
+  
+  
+  
+  @keyframes rotate360 {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotateY(-360deg);
+    }
+  }
+  

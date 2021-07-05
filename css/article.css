@@ -1,0 +1,33 @@
+h2 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+
+.article img{
+    width: 125px;
+    height: 125px;
+    max-height: 100%;
+    max-width: 100%;
+    display: flex;
+    float: left;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.article a:hover{
+    color: black;
+    background-color: antiquewhite;
+}
+
+.article a:active{
+    color: black;
+    background-color: aqua;
+}
+
+.article p{
+    color: black;
+    float : left;
+    padding: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}

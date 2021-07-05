@@ -1,0 +1,24 @@
+.sortie h1{
+    text-align: center;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.sortie img{
+    width: 125px;
+    height: 125px;
+    max-height: 100%;
+    max-width: 100%;
+    display: flex;
+    float: left;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+
+.sortie p{
+    padding: 15px;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.5cm;
+}

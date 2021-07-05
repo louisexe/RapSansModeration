@@ -1,0 +1,36 @@
+.pres{
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+
+.pres img{
+    width: 180px;
+    height: 180px;
+    margin: 15px;
+    vertical-align: top;
+}
+
+.pres h1{
+    font-style: inherit;    
+    padding: 15px;
+}
+
+.pres p{
+    margin-left: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+
+.pres a {
+    margin-left: 15px;
+}
+
+.pres a:hover{
+    color: black;
+    background-color: antiquewhite;
+}
+
+.pres a:active{
+    background-color: aqua;
+    color: black;
+}
