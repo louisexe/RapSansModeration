@@ -107,13 +107,6 @@
                         <span class="followers">454 Followers</span>
                     </a>
                 </li>
-                <li class="twitter">
-                    <a href="https://twitter.com/lougoodkid_maad" title="">
-                        <i class="fa fa-twitter"> </i>
-                        <p>Me rejoindre sur Twitter</p>
-                        <span class="followers">142 Followers</span>
-                    </a>
-                </li>
                 <li class="github">
                     <a href="https://github.com/louisexe" title="">
                         <i class="fa fa-github"> </i>
